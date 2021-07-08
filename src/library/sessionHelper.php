@@ -14,6 +14,6 @@ function checkExpiredSession()
 
 function initSessionTimeout()
 {
-  $sessionTTL = 10;
+  $sessionTTL = 600;
   $_SESSION["timeout"] = time() + $sessionTTL;
 }
